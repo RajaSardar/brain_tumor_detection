@@ -69,4 +69,4 @@ if result[0][0] == 1:
     prediction = 'normal'
 else:
     prediction = 'tumor found'
-print prediction
+print (prediction)
