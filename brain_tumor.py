@@ -67,7 +67,6 @@ result = classifier.predict(test_image)
 training_set.class_indices
 if result[0][0] == 1:
     prediction = 'normal'
-    print = ("Normal")
 else:
     prediction = 'tumor found'
-    print = ("Tumor Found")
+print prediction
